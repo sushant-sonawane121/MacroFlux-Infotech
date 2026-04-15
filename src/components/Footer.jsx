@@ -62,7 +62,7 @@ function Footer() {
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-400 text-sm md:text-base">
-              <p>Email: shubhamgodage2018@gmail.com</p>
+              <p>Email: macrofluxinfotech@gmail.com</p>
               <p>Phone: +91 7350940269</p>
               <p>
                 Address: MacroFlux Infotech, Surya Complex B6 Opposite Orange

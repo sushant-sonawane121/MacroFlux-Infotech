@@ -66,7 +66,7 @@ function Contact() {
               </div>
               <h3 className="text-xl font-bold">Email</h3>
             </div>
-            <p className="text-gray-600">shubhamgodage2018@gmail.com</p>
+            <p className="text-gray-600">macrofluxinfotech@gmail.com</p>
             {/* <p className="text-gray-600">support@macroflux.com</p> */}
           </div>
 
