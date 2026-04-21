@@ -37,78 +37,42 @@ function Home() {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Our IT Courses</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-              <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-                  <h3 className="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">MERN Stack Development</h3>
-                  <p className="text-gray-600 mb-6 text-lg">
-                    Master the full-stack JavaScript development with MongoDB, Express.js, React, and Node.js. Build modern, scalable web applications from scratch.
-                  </p>
-                  <div className="mb-6">
-                    <h4 className="font-semibold text-gray-800 mb-2">What You'll Learn:</h4>
-                    <p className="text-gray-600 mb-4">This course is designed for Beginner to Advanced level learners, covering a comprehensive 6-month roadmap with hands-on projects.</p>
-                    <div className="space-y-4">
-                      <div className="border-l-4 border-blue-500 pl-4">
-                        <h5 className="font-semibold text-blue-600">Month 1-2: Frontend Fundamentals</h5>
-                        <p className="text-gray-600 text-sm">HTML5, CSS3, JavaScript ES6+, React basics</p>
-                        <p className="text-gray-500 text-xs mt-1">Project: Personal Portfolio Website</p>
-                      </div>
-                      <div className="border-l-4 border-red-500 pl-4">
-                        <h5 className="font-semibold text-red-600">Month 3: Advanced Frontend</h5>
-                        <p className="text-gray-600 text-sm">Redux, React Hooks, Responsive Design</p>
-                        <p className="text-gray-500 text-xs mt-1">Project: E-commerce Product Catalog</p>
-                      </div>
-                      <div className="border-l-4 border-green-500 pl-4">
-                        <h5 className="font-semibold text-green-600">Month 4: Backend Development</h5>
-                        <p className="text-gray-600 text-sm">Node.js, Express.js, RESTful APIs</p>
-                        <p className="text-gray-500 text-xs mt-1">Project: REST API for Blog Management</p>
-                      </div>
-                      <div className="border-l-4 border-purple-500 pl-4">
-                        <h5 className="font-semibold text-purple-600">Month 5: Database & Integration</h5>
-                        <p className="text-gray-600 text-sm">MongoDB, Mongoose, Full-stack Integration</p>
-                        <p className="text-gray-500 text-xs mt-1">Project: Social Media Dashboard</p>
-                      </div>
-                      <div className="border-l-4 border-yellow-500 pl-4">
-                        <h5 className="font-semibold text-yellow-600">Month 6: Advanced Projects & Deployment</h5>
-                        <p className="text-gray-600 text-sm">Authentication, Deployment, Best Practices</p>
-                        <p className="text-gray-500 text-xs mt-1">Project: Full MERN Stack E-commerce Platform</p>
-                      </div>
-                    </div>
-                    <p className="text-gray-600 text-sm mt-4">Tools: Git, npm, Postman, VS Code</p>
-                  </div>
-                  <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
-                    Learn More →
-                  </button>
-                </div>
-                <div className="md:w-1/2">
-                  <div className="bg-linear-to-br from-blue-500 to-red-500 p-8 rounded-lg text-white">
-                    <h4 className="text-xl font-semibold mb-4">Course Highlights</h4>
-                    <div className="space-y-3">
-                      <div className="flex items-center">
-                        <span className="text-2xl mr-3">⏱️</span>
-                        <span>6 Months Intensive Program</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-2xl mr-3">💼</span>
-                        <span>Hands-on Projects</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-2xl mr-3">🎓</span>
-                        <span>Certificte</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-2xl mr-3">👨‍💻</span>
-                        <span>Expert Mentorship</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-2xl mr-3">📚</span>
-                        <span>Learning Mode Offline</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className="flex flex-wrap justify-center gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
+              <h3 className="text-xl font-semibold text-blue-600 mb-3">MERN Stack Development</h3>
+              <p className="text-gray-600 mb-4 text-sm">
+                Master full-stack JavaScript with MongoDB, Express.js, React, and Node.js. Build modern web applications.
+              </p>
+              <div className="mb-4">
+                <h4 className="font-semibold text-gray-800 mb-2 text-sm">Key Topics:</h4>
+                <ul className="text-gray-600 text-xs space-y-1">
+                  <li>• Frontend: HTML, CSS, React</li>
+                  <li>• Backend: Node.js, Express</li>
+                  <li>• Database: MongoDB</li>
+                  <li>• 6 Months Program</li>
+                </ul>
               </div>
+              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-sm">
+                Learn More →
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
+              <h3 className="text-xl font-semibold text-green-600 mb-3">Full Stack Java</h3>
+              <p className="text-gray-600 mb-4 text-sm">
+                Learn Java full-stack development with Spring Boot, Hibernate, and modern web technologies.
+              </p>
+              <div className="mb-4">
+                <h4 className="font-semibold text-gray-800 mb-2 text-sm">Key Topics:</h4>
+                <ul className="text-gray-600 text-xs space-y-1">
+                  <li>• Core Java & OOP</li>
+                  <li>• Spring Framework</li>
+                  <li>• Database: MySQL/Hibernate</li>
+                  <li>• 6 Months Program</li>
+                </ul>
+              </div>
+              <button className="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition duration-300 text-sm">
+                Learn More →
+              </button>
             </div>
           </div>
         </div>
