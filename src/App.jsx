@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Mern from "./pages/cources/mern";
+import Mern from "./pages/Mern";
 
 function App() {
   return (
