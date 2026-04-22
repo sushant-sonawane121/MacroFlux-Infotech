@@ -53,7 +53,7 @@ function Home() {
                   <li>• 6 Months Program</li>
                 </ul>
               </div>
-              <Link to="/cource/mern" className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-sm">
+              <Link to="/cource/mern" className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-sm">
                 Learn More →
               </Link>
             </div>
