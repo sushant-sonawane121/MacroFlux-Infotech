@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -52,9 +53,9 @@ function Home() {
                   <li>• 6 Months Program</li>
                 </ul>
               </div>
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-sm">
+              <Link to="/cource/mern" className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-sm">
                 Learn More →
-              </button>
+              </Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
               <h3 className="text-xl font-semibold text-green-600 mb-3">Full Stack Java</h3>
